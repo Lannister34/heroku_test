@@ -1,0 +1,19 @@
+{
+  "extends": "tslint:recommended",
+  "rules": {
+    "max-line-length": {
+      "options": [120]
+    },
+    "no-unused-expression": false,
+    "no-namespace": false,
+    "no-string-literal": false,
+    "variable-name": false,
+    "max-classes-per-file": [true, 6],
+    "no-console": {
+      "severity": "warning",
+      "options": ["debug", "info", "log", "time", "timeEnd", "trace"]
+    },
+    "ban": true,
+    "no-arg": true
+  }
+}
